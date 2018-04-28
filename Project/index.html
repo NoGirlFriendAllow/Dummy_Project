@@ -1,0 +1,112 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	
+<!-- Start head-->
+<head>
+	<title>Online Examination</title>
+
+	
+</head>
+<!-- End head-->
+
+	<!--Start Header-->
+	<header><b>Welcome to online Examination</b></header>
+		<div id="my_menu" align="right">
+	<h4><a href="#">HOME</a>     <a href="#">CONTACT</a>     <a href="#">ABOUT</a></h4>
+
+</div>
+
+<!-- End Header area-->
+<script>
+	function msg(argument) {
+		if (username<passWord) {
+			msg="good";
+
+		}
+		else
+		{
+			msg="passWord or username incorrect";
+		}
+
+		alert("Please Enter valid UserName & passWord")
+		// body...
+	}
+	
+</script>
+
+	<!-- Start Body-->
+	<body background="red" bgcolor="cyan2">
+		<div style="border:solid groove; width:300px; height:50px;">
+		<ul>
+			<li class="topleft">
+				<b><a href="#">&#9990;+917011101001</a></b>
+					</li>
+				<li class="topleft">
+				<b><a href="#">&#9993;deshdeepakxpm@gmail.com</a></b>
+			</li>
+		</ul>
+</div>
+
+	<div align="center">
+
+		<div style="border-style: groove; width: 350px; height: 300px; background-color:rgb(10,100,40);"></br>
+			<img src="student.jpg.jpg" alt="Login" width="120px" height="80px"/>
+
+    
+			<h3>User Login</h3>
+<label for="UserName" x><b>User Name:</b><input type="text" value="" name="UserName" placeholder="Enter a valid UserName" style="border: solid green"></label>
+<br/></br>
+<label for="passWord"><b>Password:</b>&nbsp;&nbsp;
+<input type="text" value="" name="userpassword" placeholder="Enter valid Password" style="border:solid green"></label>
+<br/></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<button type="button" value="SignIn" onclick="msg()">SignIn</button>	
+<a href="registration.jsp"><button type="button" value="SignUp">SignUp</button></a>
+				</div>
+					</div>
+<!-- Satart css -->	
+<style>
+	header{
+		background-color:orange;
+		padding: 50px;
+		font-size: 40px;
+		font-family: Century Schoolbook;	
+		}
+		h4{
+			padding-right: 50px;
+		}
+ 
+  h3{
+  	width: auto;
+  	color:cyan;
+  	background-color: red;
+  	padding: 10px 5px;
+
+  
+/* Start footer design */
+  footer{
+  		font-color:white;
+  		font-family: cursive;
+			background-color:rgb(70,20,70);	
+			padding: 40px;
+			height: 100%;
+			width: 130%;
+			background-position:200px;
+
+		}
+		/* End footer design */
+
+</style>
+<!-- End css-->
+
+<!-- Start footer-->
+  <div style="border: solid groove; margin: 120px 5px 30px; width:960px; height: 40px font-size 60px" >
+	<footer><sup><big><b>&copy;</b></big></sup>2018-2019 Online Examination all right reserved<a href="#">more</a></footer>
+</div>
+  <!-- End footer-->
+
+	</body>
+	<!-- End Body area-->
+
+</html>

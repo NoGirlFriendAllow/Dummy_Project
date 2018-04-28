@@ -1,0 +1,89 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>online Examination SignUp</title>
+</head>
+
+<!--begin header-->
+	<header>
+		<big><b>New Registration</b></big></br> <marquee><small>Hi, we are provide an online test for BCA & MCA Students... </small></marquee>
+	</header>
+<!--End header-->
+
+					<!-- Start Body-->
+<body background="red" bgcolor="cyan3">
+
+	
+	<div align="center">
+		<div style="border: cyan 2; background-color: pink; margin: 70px 60px; width:350px; height: 500px;">
+		<h3>Please fill details...</h3>
+		<form method="post" action="">
+		
+			<div>First Name:<input type="text" name="fname"></div></br>
+		<div>Last Name:<input type="text" name="lname"></div></br>
+		D.O.B:</br><div><input type="date" name=""></div></br></br>	
+		Enrollment:<input type="int" name="enroll"></br></br>
+		Course :<input type="varchar" name="course"></br></br>&nbsp;&nbsp;&nbsp;
+		Mobile :<input type="number" name="mobile" pattern="{0-9}[10]" maxlangth="12"></br></br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		Email :<input type="email" name="email"></br></br>&nbsp;&nbsp;&nbsp;
+		Collage:<input type="text" name="collage"></br></br>&nbsp;
+		Address :<input type="address" name="address"></br></br>
+		<div align="right margin 10px 20px"><button type="reset" value="reset">Reset</button><div>	
+		<div align="left margin 20px 10px"><button type="button" value="Submit" onclick="msg()">Submit</button></div>
+		</form>
+		
+	</div>
+</div>
+
+		<!--Start css-->
+
+<link rel="stylesheet" type="text/css" href="D:\Software\onine voting system">
+<div class="deepak.div">
+</div>
+
+<style>
+	header{
+		background-color:orange;
+		padding: 40px;
+		text-shadow: 20px;
+		color:rgb(90,20,0);
+		text-align: center;
+		font-family: lucida handwriting;	
+		font-size: 20px;
+
+	}
+
+body{
+		color:rgb(90,30,70);
+		font-size-adjust: auto;	
+	
+	}
+	h3{
+
+		background-color: rgba(100,30,60);
+		color:orange;
+		padding:14px;
+	}
+	small{
+		color:blue;
+		font-family: Arial;
+	}
+</style>
+	<!-- end css-->
+
+
+			<!-- Start script-->
+						<script>
+						function msg(argument) {
+						alert("your details successfully submited")	// body...
+						}
+						</script>
+					<!-- end script-->
+
+
+</body>
+<!--End body-->
+</html>
